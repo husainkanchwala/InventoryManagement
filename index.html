@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <!--    Kanchwala, Husain    Account:  jadrn018
+         CS645, Spring 2015
+         Project 1
+-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />    
+	<title>Login</title>
+	<link rel="stylesheet" href="CSS/login.css">
+	<script src="/jquery/jquery.js"></script>
+	<script src="JS/login.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div id="wrapper">
+			<form name="lform" class="lform" action="/perl/jadrn018/login.cgi" method="post">
+				<div class="header">
+					<h1>Login</h1>
+					<span></span>
+				</div>
+				<div class="content">
+					<input name="user" type="text" class="input username" placeholder="Username" />
+					<input name="passwd" type="password" class="input password" placeholder="Password" />
+				</div>
+				<div class="footer">
+					<input type="submit" name="submit" value="Login" class="buttonl" />
+				    <input type="reset" value="Clear" class="buttonr">
+				</div>
+			</form>
+		</div>   
+    </div>      
+</body>
+</html>

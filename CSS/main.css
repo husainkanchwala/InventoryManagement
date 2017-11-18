@@ -1,0 +1,115 @@
+/* Kanchwala, Husain    Account:  jadrn018
+ CS645, Spring 2017
+ Project 1
+*/
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+._button { 
+    float: left;
+    padding: 5px 15px;
+    text-shadow: 0px 1px 0 rgba(0,0,0,0.25);    
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+._button:hover {
+    border: 1px solid rgba(256,256,256,0.75);   
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+
+._button:hover {
+    border: 1px solid rgba(256,256,256,0.75);   
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.cbutton { 
+    padding: 5px 15px;
+    text-shadow: 0px 1px 0 rgba(0,0,0,0.25);    
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.cbutton:hover {
+    border: 1px solid rgba(256,256,256,0.75);   
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+
+.cbutton:hover {
+    border: 1px solid rgba(256,256,256,0.75);   
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+
+.select {
+   border: 1px solid #ccc;
+   font-size: 12px;
+   height: 24px;
+   width: 150px;
+}
+
+.selecte {
+   border: 1px solid #FF0000;
+   font-size: 12px;
+   height: 24px;
+   width: 150px;
+}
+
+
+.box{
+   border: 1px solid #ccc;
+   font-size: 12px;
+   height: 80px;
+   width: 150px; 
+}
+
+.inp {
+   border: 1px solid #ccc;
+   font-size: 12px;
+   height: 24px;
+   width: 150px;
+}
+
+.boxe{
+   border: 1px solid #FF0000;
+   font-size: 12px;
+   height: 80px;
+   width: 150px; 
+}
+
+.inpe {
+   border: 1px solid #FF0000;
+   font-size: 12px;
+   height: 24px;
+   width: 150px;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {background-color: #ddd;}
+
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
